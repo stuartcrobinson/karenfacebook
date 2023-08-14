@@ -61,3 +61,14 @@ this is the little quote bubble icon - the best way to find the comments link to
 <i data-visualcompletion="css-img" class="x1b0d499 xep6ejk" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yp/r/ZgNSGKhtfpB.png&quot;); background-position: -108px -154px; background-size: 190px 186px; width: 16px; height: 16px; background-repeat: no-repeat; display: inline-block;"></i>
 
 
+//*[contains(@style,'ZgNSGKhtfpB.png"); background-position: -10')]
+//*[contains(@style,'ZgNSGKhtfpB.png"); background-position: -98')] 
+?????
+
+NO. DONT GO BY THE QUOTE BUBBLE ICON.  use "View more comments" link or "View all 2 replies" etc.  
+make a list of all those options and see if any exist. if so, click it. and that will open the modal.  
+if no extra comments, no need for modal anyway. 
+
+
+
+
