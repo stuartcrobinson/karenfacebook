@@ -1,0 +1,63 @@
+https://www.facebook.com/
+
+<input type="text" class="inputtext _55r1 _6luy" name="email" id="email" data-testid="royal_email" placeholder="Email or phone number" autofocus="1" aria-label="Email or phone number">
+
+<input type="password" class="inputtext _55r1 _6luy _9npi" name="pass" id="pass" data-testid="royal_pass" placeholder="Password" aria-label="Password">
+
+<button value="1" class="_42ft _4jy0 _6lth _4jy6 _4jy1 selected _51sy" name="login" data-testid="royal_login_button" type="submit" id="u_0_5_Gs">Log In</button>
+
+
+//*[@id="email"]
+//*[@id="pass"]
+//*[@id="login"]
+
+go to group:
+
+https://www.facebook.com/groups/144178824324561
+
+
+
+what to scrape:
+
+per post:
+
+OP 
+OP fb link
+OP message date 
+OP message 
+OP num likes etc 
+
+
+
+TODO
+
+get all new divs in [div role=feed]
+FOR EACH div 
+    if it has the little num-comments link on bottom right, click it.
+        get the container div of modal
+        click on all the "... Replies" links under comments. scroll to bottom of modal
+    else 
+        get the container div of the non-modal div 
+    save all the OP info 
+    save all the comments' info somehow. including meta data and nesting data.     
+    .
+scroll to bottom of page, wait for new divs to load
+
+
+
+
+//div[@role="feed"]
+//div[@role="feed"]/div
+
+driver.find_element(By.XPATH, '//button[text()="Some text"]')
+
+
+driver.find_elements(By.XPATH, '//div[@role="feed"]/div')
+
+
+
+this is the little quote bubble icon - the best way to find the comments link to expand modal?
+
+<i data-visualcompletion="css-img" class="x1b0d499 xep6ejk" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yp/r/ZgNSGKhtfpB.png&quot;); background-position: -108px -154px; background-size: 190px 186px; width: 16px; height: 16px; background-repeat: no-repeat; display: inline-block;"></i>
+
+
