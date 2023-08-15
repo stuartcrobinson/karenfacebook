@@ -70,5 +70,19 @@ make a list of all those options and see if any exist. if so, click it. and that
 if no extra comments, no need for modal anyway. 
 
 
+View more comments
+View more answers
+View all [n] replies 
+View [n] reply/ies
+
+//*[starts-with(text(),'View')]
+
+
+OP name:
+
+//h3/span/span/a/strong
+
+
+
 
 

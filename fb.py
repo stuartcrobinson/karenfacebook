@@ -31,6 +31,15 @@ time.sleep(1)
 
 divs = driver.find_elements(By.XPATH, '//div[@role="feed"]/div')
 
+#driver.find_element(By.XPATH, '//div[@role="feed"]/div[2]//span/a/strong').text
+
+
+del divs[0] #remove "Most Relevant" link
+
+for div in divs:
+    op_name = div.find_element(By.XPATH, './/span/a/strong').get_attribute('innerText')  #works
+    # print(div)
+    print(op_name)
 
 
 print(len(divs))
