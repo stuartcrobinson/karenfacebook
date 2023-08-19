@@ -82,7 +82,11 @@ OP name:
 
 //h3/span/span/a/strong
 
+fri aug 18
 
+todo 
+
+get post text 
 
 
 
