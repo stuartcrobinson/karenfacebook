@@ -5,7 +5,7 @@ to run:
 
 python3 fb.py    
 
-see secrets.example for saving screen name and password.
+see secrets.example for saving screen name and password.  (make a new 'secrets' folder using that as template)
 
 also you'll probably have to change this line to give it a group that you're in (to scrape its messages)
 
